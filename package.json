@@ -1,0 +1,28 @@
+{
+  "name": "md-links-library",
+  "version": "1.0.6",
+  "description": "Extract Links from Markdown",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "getLinksFromMd()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deisetrianon/md-links-library.git"
+  },
+  "author": "Deise Trianon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deisetrianon/md-links-library/issues"
+  },
+  "homepage": "https://github.com/deisetrianon/md-links-library#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.5.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
+}
