@@ -1,7 +1,7 @@
-# Markdown Links Library v.1.0.6
+# Markdown Links Library v.1.0.7
 Markdown Links Library is a JavaScript Library that can be used to extract links from Markdown texts.
 
-### Version 1.0.6
+### Version 1.0.7
 Returns an array of objects that contains the urls and the links.
 
 ### Method

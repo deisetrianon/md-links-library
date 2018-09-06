@@ -4,13 +4,13 @@ const expect = chai.expect;
 const getLinksFromMd = require("../index");
 
 describe("getLinksFromMd", () => {
-  context ("For empty markdowns", () => {
+  describe ("For empty parameters", () => {
     it ("should throw a New Error", () => {
-      expect(() => getLinksFromMd('')).to.throw('The markdown is empty.');
+      expect(() => getLinksFromMd('')).to.throw('Empty parameter.');
     })
   })
 
-  describe("For non-empty markdowns", () => {
+  describe("For non-empty parameters", () => {
     context("When the markdown is a number", () => {
       it ("should throw a New Error", () => {
         expect(() => getLinksFromMd(5)).to.throw('The markdown is a number.');

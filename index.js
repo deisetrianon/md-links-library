@@ -1,5 +1,5 @@
 function getLinksFromMd(markdown) {
-  if (!markdown) throw new Error('The markdown is empty.');
+  if (!markdown) throw new Error('Empty parameter.');
   if (typeof markdown === 'number') throw new Error('The markdown is a number.');
   
   const regex_markdown = new RegExp(/(\[(\w)*\]).(https?:\/\/)?(www\.)?[a-z0-9]+(\.\w{2,}){1,2}(\/\w{1,})*(\/)*\)/g);

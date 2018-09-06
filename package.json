@@ -1,6 +1,6 @@
 {
   "name": "md-links-library",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Extract Links from Markdown",
   "main": "index.js",
   "directories": {
